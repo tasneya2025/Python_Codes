@@ -33,3 +33,21 @@ roll.pop(6)
 print(roll)
 
 
+fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(fruits[2:5])
+
+
+# thislist = ["apple", "banana", "cherry"]
+# tropical = ["mango", "pineapple", "papaya"]
+# thislist.extend(tropical)
+# print(thislist)
+
+
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+
+
+thislist1 = ["apple", "banana", "cherry"]
+thislist1.clear()
+print(thislist1)

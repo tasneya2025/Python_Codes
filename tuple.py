@@ -1,6 +1,7 @@
 #list is mutable ... tuples are immutable 
-tup=(1,2,1,3)
+tup=(1,2,1,3,"apple")
 print(type(tup))
+print(tup)
 
 tup1 =(1,) #for that comma it will treat like a tuple otherwise it will treat like an interger number 
 print(type(tup1))
