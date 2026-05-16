@@ -30,7 +30,8 @@ password = " "
 for char in password_list:
     password += char
 
-print(f"Your automatic generated password is: {password}")
+print(f"Your automatic generated password is here: {password}")
+
 
 
 
